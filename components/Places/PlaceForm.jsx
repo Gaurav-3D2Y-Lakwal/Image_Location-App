@@ -23,7 +23,7 @@ const PlaceForm = () => {
     },[]);
 
     const savePlaceHandler = () =>{
-       const placeData = {};
+       const placeData = {enteredTitle};
        onCreatePlace();
     }
 

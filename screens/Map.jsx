@@ -33,7 +33,7 @@ const Map = ({navigation}) => {
 
     navigation.navigate('AddPlace',{
         pickedLat: selectedLocation.lat,
-        pickedlng: selectedLocation.lng
+        pickedlng: selectedLocation.lon
     })
    },[navigation, selectedLocation])
 

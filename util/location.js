@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyD2mP_sDllo0cwv60LmYtATOJIcnDhZcg';
+const API_KEY = 'AIzaSyChTcMUCY9Zw3j00st0uKkqTz0RGlOpea8';
 
 
 export async function getAddress(lat, lng){
